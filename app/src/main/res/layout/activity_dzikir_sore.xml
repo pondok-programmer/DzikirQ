@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dzikir"
+    tools:context="com.example.achmadqomarudin.dzikirq.MenuDzikirSore.DzikirSoreActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/slideViewPagerSore"
+        android:layout_above="@+id/previousBtnSore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/dotsLayoutSore"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/previousBtnSore"
+        android:textColor="@android:color/white"
+        android:background="@drawable/left"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/nextBtnSore"
+        android:background="@drawable/right"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="40dp" />
+
+</RelativeLayout>

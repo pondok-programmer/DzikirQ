@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    android:orientation="vertical">
+
+        <com.alexvasilkov.gestures.views.GestureFrameLayout
+            android:id="@+id/zoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <include layout="@layout/content_layout"/>
+        </com.alexvasilkov.gestures.views.GestureFrameLayout>
+
+</ScrollView>
